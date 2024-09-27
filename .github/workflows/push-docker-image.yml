@@ -1,7 +1,6 @@
 name: Push Docker Image
 
-# Configures this workflow to run every time a change is pushed to the branch called `release`.
-on:
+# Configures this workflow to run every time a change is pushed to main or a release is made
   push:
     branches: 
       - main
